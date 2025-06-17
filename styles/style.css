@@ -36,3 +36,42 @@ ul,
 ol {
   list-style: none;
 }
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.result{
+  align-self: end;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 711px 1fr;
+  gap: 30px;
+}
+.content__video-card-thumbnail{
+  width: 194px;
+}
+.result__video{
+  width: 100%;
+}
+.result__video-container, .content__list{
+  position: relative;
+}
+.title{
+  font-size: 75px;
+  font-weight: 700;
+  font-family: Oswald, serif;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+.content__list{
+  height: 300px;
+  overflow: auto;
+}
+.search-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
